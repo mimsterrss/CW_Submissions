@@ -2,7 +2,7 @@
 public class Intro_Cube {
 
 	public static void main(String[] args) {
-		//This class is used to declare the different parts of a cube, such as a side, and using the simple formula to solve for it's surface area and the volume. 
+		/* My name is Mimi and in this class is used to declare the different parts of a cube, such as a side, and using the simple formula to solve for it's surface area and the volume. */
 		// Declare a side length as an int
 		// Calculate its surface area
 		// Calculate its volume
