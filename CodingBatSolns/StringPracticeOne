@@ -1,0 +1,27 @@
+public String helloName(String name) {
+  
+  return ("Hello " + name + "!");
+  
+}
+
+public String makeAbba(String a, String b) {
+ 
+  return (a + b + b + a);
+  
+}
+
+public String makeTags(String tag, String word) {
+  
+  return ("<" + tag + ">" + word + "<" + "/" + tag + ">");
+  
+}
+
+public String firstHalf(String str) {
+  
+  int lengthOfString = str.length();
+  int halfOfString = lengthOfString/2;
+  String minierString = new String (str.substring(halfOfString));
+  return str.substring(0, halfOfString);
+  
+}
+
