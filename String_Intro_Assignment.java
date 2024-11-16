@@ -1,3 +1,10 @@
+/*
+* This is my String Intro Assignment. The five tasks were listed as the following:
+* 1) In the main method, instantiate a Scanner object and then instantiate a String object equal to a scanned input. Be sure to close the scanner at the bottom of 
+* your main method before testing any code. 2) Make and test a void method printSecondAndLastLetter that will print the second character and last character in the passed String.
+* 3) Make and test a method findTheEthat returns the index of the first 'e' character in a passed String. 4) Make and test a method getLength that returns the amount of characters 
+* (the length) of a passed String. 5) Make and test a void method printFirstAndLastThree that is passed a string and prints the first three and last three characters in a passed String.
+*/
 import java.util.Scanner;
 
 public class String_Into_Assignment {
@@ -39,7 +46,7 @@ public class String_Into_Assignment {
 	
 	public static void findTheE(String Tracey) {
 		
-		System.out.println(Tracey.indexOf('e')); 
+		System.out.println("The first e occurs at index " + Tracey.indexOf('e') + "."); 
 		
 	}
 	
@@ -59,13 +66,13 @@ public class String_Into_Assignment {
 //Task 5
 /** 
  * This void method that is passed a string and prints the first three and last three characters in a passed String
- * @param "computer" 
+ * @param "creatures" 
  */
 	
-	public static void firstAndLastThree(String computer) {
+	public static void firstAndLastThree(String creatures) {
 		
-		System.out.print("The first three letters are " + computer.substring(0,3));
-		System.out.print(" and the last three letters are " + computer.substring(computer.length()-3) + ".");
+		System.out.print("The first three letters are " + creatures.substring(0,3));
+		System.out.print(" and the last three letters are " + creatures.substring(creatures.length()-3) + ".");
 		
 	}
 
