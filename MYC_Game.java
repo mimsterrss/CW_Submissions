@@ -114,14 +114,14 @@ public class Main {
 		String userSelection = myReader.next();
 		if (userSelection.equals("one") || userSelection.equals("1")) {
 			
-			System.out.println("Your new name is Alice.");
+			System.out.println("Your new name is Jordan.");
 			System.out.println("");
 			secondPhase();
 			
 		}
 		else if (userSelection.equals("two") || userSelection.equals("2")) {
 			
-			System.out.println("Your new name is Laylah.");
+			System.out.println("Your new name is Alyx.");
 			System.out.println("");
 			secondPhase();
 			
@@ -133,14 +133,14 @@ public class Main {
 		}
 		else if (userSelection.equals("four") || userSelection.equals("4")) {
 			
-			System.out.println("Your new name is Savannah.");
+			System.out.println("Your new name is Riley.");
 			System.out.println("");
 			secondPhase();
 			
 		}
 		else if (userSelection.equals("five") || userSelection.equals("5")) {
 			
-			System.out.println("Your new name is Morgan.");
+			System.out.println("Your new name is Tatum.");
 			System.out.println("");
 			secondPhase();
 			
