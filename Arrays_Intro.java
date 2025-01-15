@@ -6,7 +6,7 @@ int[] intArr;
 
 boolean[] boolArr;
 
-string[] strArr;
+String[] strArr;
 
 Circle[] circArr;
 
@@ -22,7 +22,7 @@ int[] intArr = {7, -12, 88, -88, 0, 5, 2000};
 //create an array of 5 strings objects with default values.
 //state the default value for ints, booleans, doubles, and any reference data type as well
 
-string fruitsArr = new String[5];
+String fruitsArr = new String[5];
 //the default value for ints and doubles is 0
 //the default value for booleans false
 //the default value for any refrence data type and strings is 'null'
