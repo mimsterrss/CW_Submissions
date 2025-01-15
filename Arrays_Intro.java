@@ -51,7 +51,7 @@ System.out.print(fruitsArr[1]);
 
 //question seven
 //create a loop that one by one prints put each element in fruitsArr
-for (int i=0; i<=str.length-1; i++){
+for (int i=0; i<=fruitsArr.length-1; i++){
   System.out.print(fruitsArr(i));
 }
 
