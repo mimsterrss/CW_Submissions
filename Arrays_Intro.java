@@ -15,6 +15,7 @@ Circle[] circArr;
 //question two
 //create an array of ints with the following represented values: 7, -12, 88, -88, 0, 5, 2000
 int[] intArr = {7, -12, 88, -88, 0, 5, 2000};
+System.out.print(intArr[intArr.length-1]);
 
 
 
@@ -31,4 +32,26 @@ String fruitsArr = new String[5];
 
 //question four
 //change the second element in fruitsArr to "Bapple"
+fruitsArr[1] = "Bapple";
+
+
+
+//question five
+//change the last element in fruitsArr to "Zanana" 
+//type it without typing the number 4, but accessing the arrays length
+fruitsArr[fruitsArr.length-1] = "Zanana";
+
+
+
+//question six
+//print out the second element in fruitsArr
+System.out.print(fruitsArr[1]);
+
+
+
+//question seven
+//create a loop that one by one prints put each element in fruitsArr
+for (int i=0; i<=str.length-1; i++){
+  System.out.print(fruitsArr(i));
+}
 
