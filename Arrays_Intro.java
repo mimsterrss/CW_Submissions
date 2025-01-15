@@ -9,7 +9,7 @@ boolean[] boolArr;
 string[] strArr;
 
 //figure this one out!!!!!
-double[] circArr;
+Circle[] circArr;
 
 
 
