@@ -8,7 +8,6 @@ boolean[] boolArr;
 
 string[] strArr;
 
-//figure this one out!!!!!
 Circle[] circArr;
 
 
