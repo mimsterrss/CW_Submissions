@@ -57,21 +57,17 @@ public int[] maxEnd3(int[] nums) {
 
 public int sum2(int[] nums) {
   
-  int[] tempArr = new int[nums.length];
-  if(tempArr.length==0)
+  if(nums.length==0)
   {
     return 0;
   }
-  else if(tempArr.length==1)
+  else if(nums.length==1)
   {
-    tempArr[0]=nums[0];
-    return tempArr[0];
+    return nums[0];
   }
   else
   {
-    tempArr[0]=nums[0];
-    tempArr[1]=nums[1];
-    return tempArr[0]+tempArr[1];
+    return nums[0]+nums[1];
   }
   
 }
