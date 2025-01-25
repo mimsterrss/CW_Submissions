@@ -44,6 +44,8 @@ public static int checkForFour4(int[] arr)
 {
   int[] copyArr = arr;
   boolean gotFour = false;
+  int f = 4;
+}
   
 
 
