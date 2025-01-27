@@ -22,17 +22,17 @@ public static int checkfor4(int[] arr, int m)
 
 public static int countElems(int[] arr)
 {
-	int[] copyArr = arr; 
-	int count = 0;
-  int a = 4;
-	for(int i = 0; i < arr.length; i++)
-	{
-    if(a == copyArr[i])
+    int[] copyArr = arr; 
+    int count = 0;
+    int a = 4;
+    for(int i = 0; i < arr.length; i++)
     {
-      count++;
-    }
-	}
-  return count;
+    	if(a == copyArr[i])
+    	{
+      	count++;
+   	}
+     }
+     return count;
 }
 
 
@@ -45,6 +45,8 @@ public static int checkForFour4(int[] arr)
   int[] copyArr = arr;
   boolean gotFour = false;
   int f = 4;
+  
+	
 }
   
 
