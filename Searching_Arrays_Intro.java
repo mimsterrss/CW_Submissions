@@ -40,13 +40,23 @@ public static int countElems(int[] arr)
 //question three
 //Create a method checkForFour4() that is passed an int array and return true if the array has exactly four 4's in it. 
 
-public static int checkForFour4(int[] arr)
+public static boolean checkForFour4(int[] arr, int a)
 {
-  int[] copyArr = arr;
-  boolean gotFour = false;
-  int f = 4;
-  
-	
+	int [] copyArr = arr;
+	int count = 0;
+	boolean four4 = false;
+	for (int i = 0; i < arr.length; i++)
+	{
+		if (count == 4)
+		{
+			four4 = true;
+		}
+		if (a == copyArr[i])
+		{
+			count++;
+		}
+	}
+	return four4;
 }
   
 
