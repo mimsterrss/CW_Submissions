@@ -172,3 +172,62 @@ public int[] swapEnds(int[] nums) {
 }
 
 
+
+//midThree
+//Given an array of ints of odd length, return a new array length 3 containing the elements from the middle of the array. The array length will be at least 3.
+
+public int[] midThree(int[] nums) {
+  
+  int middle = (nums.length/2)-1;
+  int[] copyArr = new int[] {nums[middle], nums[middle + 1], nums[middle + 2]};
+  return copyArr;
+  
+}
+
+
+
+//maxTriple
+//Given an array of ints of odd length, look at the first, last, and middle values in the array and return the largest. The array length will be a least 1.
+
+public int maxTriple(int[] nums) {
+  
+  int first = (nums[0]);
+  int middle = (nums[nums.length/2]);
+  int last = (nums[nums.length-1]);
+  
+  if(first > middle && first > last){
+    return first;
+  }
+  if(middle > first && middle > last){
+    return middle;
+  }
+  return last;
+  
+}
+
+
+
+//frontPiece
+//Given an int array of any length, return a new array of its first 2 elements. If the array is smaller than length 2, use whatever elements are present.
+
+public int[] frontPiece(int[] nums) {
+  
+  int[] copyArr = new int[2];
+  if(nums.length < 2){
+    return nums;
+  }
+  
+  for(int i = 0; i < 2; i++)
+  {
+    copyArr[i] = nums[i];
+  }
+  return copyArr;
+  
+}
+
+
+
+//unlucky1
+//We'll say that a 1 immediately followed by a 3 in an array is an "unlucky" 1. Return true if the given array contains an unlucky 1 in the first 2 or last 2 positions in the array.
+
+
