@@ -60,7 +60,7 @@
 					//using an int called temp to hold the value of one of nums before being swapped
 					int temp = nums.get(i);
 					nums.set((i), nums.get(i+1));
-					nums.set((1), temp);
+					nums.set((i+1), temp);
 					counter++;
 				}
 			}
