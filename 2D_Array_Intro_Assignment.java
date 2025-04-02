@@ -11,6 +11,8 @@ int[][] gridNums = {4, 5, 7},
 //For the following problems, print out those elements before and after to verify it worked. 
 //task three: For both of those arrays, change the element in the first row, first column to a 17.
 
+gridnums[0][0] = [17];
+
 //task four: For both of those arrays, change the element in the second row, third column into a 20. 
 
 //task five: For both of those arrays, change the last element in the first row to a -5. Accomplish this using .length 
