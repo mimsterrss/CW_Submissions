@@ -15,7 +15,11 @@ gridnums[0][0] = [17];
 
 //task four: For both of those arrays, change the element in the second row, third column into a 20. 
 
+gridNums[1][2] = [20];
+
 //task five: For both of those arrays, change the last element in the first row to a -5. Accomplish this using .length 
+
+gridNums[0][gridNums[0].length-1] = [-5];
 
 //task six: For both of those arrays, change the first element in the last row to a -7. Accomplish this using .length 
 
