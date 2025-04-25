@@ -50,82 +50,82 @@ gridNumsTwo[2][gridNumsTwo[0].length-1] = -30;
   
 //task eight: Create a method that is passed a 2-D array of ints and one by one prints out each element in the first row. 
 
-	public static int[][] elementsInFirstRow(int[][] arr){
+public static int[][] elementsInFirstRow(int[][] arr){
     
-		//loop to go through the 2-D array
-		for(int i=0; i<=arr[0].length-1; i++){
+	//loop to go through the 2-D array
+	for(int i=0; i<=arr[0].length-1; i++){
       
-			//will print whatever element 'i' is currently on in the first row of the array
-			System.out.println(arr[0][i]);
+		//will print whatever element 'i' is currently on in the first row of the array
+		System.out.println(arr[0][i]);
       
-		}
-		//return the array
-		return arr;
-    
 	}
+	//return the array
+	return arr;
+    
+}
 
 
 
 //task nine: Create a method that is passed a 2-D array of ints and one by one prints out each element in the first column.
 
-	public static int[][] elementsInFirstColumn(int[][] arr){
+public static int[][] elementsInFirstColumn(int[][] arr){
     
-		//loop to go through the 2-D array
-		for(int i=0; i<=arr.length-1; i++){
+	//loop to go through the 2-D array
+	for(int i=0; i<=arr.length-1; i++){
       
-			//prints whatever element 'i' is currently on in the first column of the array
-			System.out.print(arr[i][0]);
+		//prints whatever element 'i' is currently on in the first column of the array
+		System.out.print(arr[i][0]);
       
-		}
-		//return the array
-		return arr;
-		
 	}
+	//return the array
+	return arr;
+		
+}
 
 
 
 //task ten: Create a method that is passed a 2-D array of ints and one by one prints out each element in row-major order. 
 
-	public static int[][] elementsInRowMajorOrder(int[][] arr){
+public static int[][] elementsInRowMajorOrder(int[][] arr){
 		
     //loop to go through the 2-D array
-		for (int i=0; i<=arr[0].length-1; i++){
+	for (int i=0; i<=arr[0].length-1; i++){
 			
-			//this for loop is for the rows & will continue to run as along as 'r' is less than or equal to arr.length - 1
-			for(int r=0; r<=arr.length-1; r++){
+		//this for loop is for the rows & will continue to run as along as 'r' is less than or equal to arr.length - 1
+		for(int r=0; r<=arr.length-1; r++){
         
-				//prints whatever 'i' and 'r' are equal to
-				System.out.println(arr[r][i]);
+			//prints whatever 'i' and 'r' are equal to
+			System.out.println(arr[r][i]);
         
-			}
-      
 		}
-		//returns the array
-		return arr;
-    
+      
 	}
+	//returns the array
+	return arr;
+    
+}
 	
 
 
 //task eleven: Create a method that is passed a 2-D array of ints and one by one prints out each element in column-major order. 
+	
+public static int[][] elementsInColumnMajorOrder(int[][] arr){
+    
+	//loop to go through the 2-D array
+	for(int i=0; i<=arr.length-1;i++){
+      
+		//this for loop is for the columns & will continue to run as along as 'r' is less than arr.length - 1
+		for(int r=0;r<arr[0].length-1;r++){
 
-	public static int[][] elementsInColumnMajorOrder(int[][] arr){
-    
-		//loop to go through the 2-D array
-		for(int i=0; i<=arr.length-1;i++){
-      
-			////this for loop is for the columns & will continue to run as along as 'r' is less than arr.length - 1
-			for(int r=0;r<arr[0].length-1;r++){
+			//prints whatever 'i' and 'r' are equal to
+			System.out.println(arr[i][r]);
         
-				//prints whatever 'i' and 'r' are equal to
-				System.out.println(arr[i][r]);
-        
-			}
-      
 		}
-		//returns the array
-		return arr;
-    
+      
 	}
+	//returns the array
+	return arr;
+    
+}
 
 
